@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/Attendance_Record.css"/>
+    <link rel="stylesheet" href="../css/bootstrap.min.css"/>
+    <script src="../script/jquery.min.js"></script>
+    <script src="../script/bootstrap.min.js"></script>
+    <title></title>
+</head>
+<body>
+    <div class="container div_Attendance_Record" id="box">
+
+        <div class="dropdown drop">
+            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                考勤情况
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                <li><a href="#">一月考勤情况</a></li>
+                <li><a href="#">二月考勤情况</a></li>
+                <li><a href="#">三月考勤情况</a></li>
+            </ul>
+        </div>
+
+        <button class="btn btn-default">出勤</button>
+        <button class="btn btn-danger">缺勤</button>
+        <button class="btn btn-success">请假</button>
+        <button class="btn btn-warning">迟到</button>
+        <button class="btn btn-info">早退</button>
+
+        <table class="table table-hover">
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td class="danger">9</td>
+                <td>10</td>
+                <td class="info">11</td>
+                <td>12</td>
+                <td>13</td>
+                <td>14</td>
+            </tr>
+            <tr>
+                <td class="warning">15</td>
+                <td class="success">16</td>
+                <td>17</td>
+                <td>18</td>
+                <td>19</td>
+                <td>20</td>
+                <td>21</td>
+            </tr>
+            <tr>
+                <td>22</td>
+                <td>23</td>
+                <td>24</td>
+                <td>25</td>
+                <td>26</td>
+                <td>27</td>
+                <td>28</td>
+            </tr>
+            <tr>
+                <td>29</td>
+                <td>30</td>
+                <td>31</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+
+        <label>出勤：28天</label>
+        <label>请假：1天</label><br>
+        <label>缺勤：1天&nbsp;&nbsp;</label>
+        <label>请假：1天</label><br>
+        <label>迟到：1天&nbsp;&nbsp;</label>
+        <label>早退：1天</label>
+    </div>
+</body>
+</html>

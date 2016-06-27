@@ -1,0 +1,23 @@
+form{
+    margin: 6% 0 0 8%;
+}
+
+/*input[type="text"],input[type='password']{
+    width: 20%;
+}*/
+
+#div_user>.input-group,#div_password>.input-group,#div_code>.input-group{
+    width: 20%;
+}
+
+#div_user,#div_password,#div_code,#div_identity{
+    margin-bottom: 2%;
+}
+
+img{
+    margin-top: 2%;
+}
+
+button{
+    width: 200px;
+}

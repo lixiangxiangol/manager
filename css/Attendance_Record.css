@@ -1,0 +1,25 @@
+.div_Attendance_Record{
+    margin: 3% 0 0 0;
+}
+
+#box{
+    margin-left: 20%;
+}
+
+.drop{
+    margin-bottom: 5%;
+}
+
+.div_Attendance_Record>button{
+    margin-right: 5%;
+    margin-top: 10px;
+}
+
+.div_Attendance_Record>table{
+    margin-top: 5%;
+    width: 60%;
+}
+
+.div_Attendance_Record>label{
+    margin-right: 20%;
+}

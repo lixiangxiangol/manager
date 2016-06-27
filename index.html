@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <script src="script/jquery.min.js"></script>
+    <script src="script/bootstrap.min.js"></script>
+    <title></title>
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top" id="top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <b class="navbar-brand" id="title">简单工作系统</b>
+            </div>
+
+            <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li id="li_main"><a href="index.html">主页</a></li>
+                    <li id="li_exit"><a href="login.html">退出</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <ul class="list-group block dis" id="list">
+        <li class="list-group-item">功能列表</li>
+        <li class="list-group-item"><a href="page/Attendance_Record.html" target="iframe"><i class="glyphicon glyphicon-list-alt"></i> 考勤记录</a></li>
+        <li class="list-group-item"><a href="page/Attendance_Application.html" target="iframe"><i class="glyphicon glyphicon-envelope"></i> 考勤申请</a></li>
+        <li class="list-group-item"><a href="page/Payroll_records.html" target="iframe"><i class="glyphicon glyphicon-yen"></i> 工资记录</a></li>
+        <li class="list-group-item"><a href="page/Apply_for_examination.html" target="iframe"><i class="glyphicon glyphicon-bullhorn"></i> 申请考核</a></li>
+        <li class="list-group-item"><a href="page/employee_information.html" target="iframe"><i class="glyphicon glyphicon-user"></i> 查看新员工信息</a></li>
+        <li class="list-group-item"><a href="page/Wages.html" target="iframe"><i class="glyphicon glyphicon-bitcoin"></i> 查看员工工资</a></li>
+    </ul>
+
+    <iframe name="iframe" id="iframe" src="page/main.html"></iframe>
+</body>
+<script src="script/script.js"></script>
+</html>
